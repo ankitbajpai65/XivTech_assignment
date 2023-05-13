@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.imgDivMob {
+    display: none;
+    margin: 6rem 0rem 5rem 0rem;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+
+.head {
+    font-size: 6.4rem;
+    margin-bottom: 2rem;
+
+}
+
+.description {
+    font-size: 2.8rem;
+}
+
+.link {
+    font-weight: bold;
+    font-size: 1.9rem;
+    margin-top: 3rem;
+    margin-right: 2rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 40%;
+    }
+
+    .container {
+        padding: 3rem;
+    }
+
+    .infoDiv {
+        width: 100%;
+    }
+
+    .imgDiv {
+        display: none;
+    }
+
+    .imgDivMob {
+        display: block;
+    }
+
+    .link {
+        color: #3C83FB;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    html {
+        font-size: 45%;
+    }
+}
